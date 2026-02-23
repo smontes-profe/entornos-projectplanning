@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Lanzar en Chrome (Perfil Limpio)",
+            "type": "pwa-chrome",
+            "request": "launch",
+            "url": "file:///${workspaceFolder}/index.html",
+            "userDataDir": "${workspaceFolder}/.vscode/chrome-debug"
+        }
+    ]
+}
